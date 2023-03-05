@@ -4,7 +4,6 @@
   bootstrap="vendor/autoload.php"
   cacheDirectory=".phpunit.cache"
   executionOrder="depends,defects"
-  requireCoverageMetadata="false"
   beStrictAboutCoverageMetadata="false"
   beStrictAboutOutputDuringTests="true"
   failOnRisky="true"
@@ -14,10 +13,4 @@
       <directory>tests</directory>
     </testsuite>
   </testsuites>
-
-  <coverage>
-    <include>
-      <directory suffix=".php">src</directory>
-    </include>
-  </coverage>
 </phpunit>
